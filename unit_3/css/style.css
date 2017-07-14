@@ -1,7 +1,9 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: dodgerblue;
 	color: black;
+	font-family: Arial, helvetica, sans-serif;
 }
-h1-5, p {
-	font-family: Arial, sans-serif;
+section {
+	padding:5em 0;
 }
