@@ -1,0 +1,43 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+	background-color: rgba(220,220,220,1);
+	color: black;
+	font-family: Arial, helvetica, sans-serif;
+}
+section {
+	padding: 2em 0;
+}
+header {
+	display: block;
+	line-height: 2em;
+	margin: 2px 5px 30px 5px;
+}
+nav {
+	margin: 0 0 20px 0;
+	display: inline;
+	float: right;
+}
+#intro {
+	background: url(https://goo.gl/YUhHHn);
+	background-size: cover;
+	font-family: 'Merriweather', cursive, helvetica, sans-serif;
+	font-weight: bold;
+	margin: 20px 0;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+.calltoaction {
+	font-family: helvetica;
+	font-weight: normal;
+	display: block;
+}
+#mission {
+	text-align: center;
+	margin: 0;
+	line-height: 1.5em;
+}

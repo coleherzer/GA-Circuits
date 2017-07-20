@@ -5,5 +5,9 @@ body {
 	font-family: Arial, helvetica, sans-serif;
 }
 section {
-	padding:5em 0;
+	padding: 5em 0;
+}
+#intro {
+	background: url(https://goo.gl/WyT1Lo);
+	background-size: cover;
 }
