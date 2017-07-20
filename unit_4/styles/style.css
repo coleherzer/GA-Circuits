@@ -7,9 +7,6 @@ body {
 	color: black;
 	font-family: Arial, helvetica, sans-serif;
 }
-section {
-	padding: 2em 0;
-}
 header {
 	display: block;
 	line-height: 2em;
@@ -19,6 +16,9 @@ nav {
 	margin: 0 0 20px 0;
 	display: inline;
 	float: right;
+}
+section {
+	padding: 2em 0;
 }
 #intro {
 	background: url(https://goo.gl/YUhHHn);
@@ -41,3 +41,37 @@ h1 {
 	margin: 0;
 	line-height: 1.5em;
 }
+#featured {
+	padding: 20px 0 0 0;
+}
+#tsunami {
+	background: url(https://goo.gl/JxjLjZ);
+	background-size: cover;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+#caliente {
+	background: url(https://goo.gl/KK7UMA);
+	background-size: cover;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+#salmonlemon {
+	background: url(https://goo.gl/pvzXgK);
+	background-size: cover;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+#heaven {
+	background: url(https://goo.gl/X89XYU);
+	background-size: cover;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
