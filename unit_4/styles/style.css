@@ -8,9 +8,9 @@ body {
 	font-family: Arial, helvetica, sans-serif;
 }
 header {
-	display: block;
 	line-height: 2em;
 	margin: 2px 5px 30px 5px;
+	float: left;
 }
 nav {
 	margin: 0 0 20px 0;
@@ -26,6 +26,7 @@ section {
 	font-family: 'Merriweather', cursive, helvetica, sans-serif;
 	font-weight: bold;
 	margin: 20px 0;
+	padding: 10em;
 	text-align: center;
 }
 h1 {
