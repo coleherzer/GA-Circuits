@@ -7,24 +7,35 @@ body {
 	color: black;
 	font-family: Arial, helvetica, sans-serif;
 }
+
 header {
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding: 20px;
 	line-height: 2em;
 	margin: 2px 5px 30px 5px;
 }
-/*nav {
+
+nav {
+	background-color: #E8C66A;
 	margin: 0 0 20px 0;
+	border: 1px solid black;
+	padding: 20px;
 	display: inline;
-	float: right;
-}*/
-#nav {
-	display: block;
 	float: right;
 }
 
-}
+/*#nav {
+	display: block;
+	float: right;
+}*/
+
 section {
-	padding: 2em 0;
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
 }
+
 #intro {
 	background: url(https://goo.gl/YUhHHn);
 	background-size: cover;
@@ -34,45 +45,60 @@ section {
 	padding: 10em;
 	text-align: center;
 }
+
 h1 {
 	font-size: 50px;
 }
+
 .calltoaction {
 	font-family: helvetica;
 	font-weight: normal;
 	display: block;
 }
+
 #mission {
 	text-align: center;
 	margin: 0;
 	line-height: 1.5em;
 }
+
 #featured {
 	padding: 20px 0 0 0;
 }
+
 #tsunami {
 	background: url(https://goo.gl/JxjLjZ);
 	background-size: cover;
 	padding: 10px 0;
 	margin: 20px 0;
 }
+
 #caliente {
 	background: url(https://goo.gl/KK7UMA);
 	background-size: cover;
 	padding: 10px 0;
 	margin: 20px 0;
 }
+
 #salmonlemon {
 	background: url(https://goo.gl/pvzXgK);
 	background-size: cover;
 	padding: 10px 0;
 	margin: 20px 0;
 }
+
 #heaven {
 	background: url(https://goo.gl/X89XYU);
 	background-size: cover;
 	padding: 10px 0;
 	margin: 20px 0;
+}
+
+footer {
+	background-color: #FF957E;
+	font-size: 10px;
+	border: 1px solid black;
+	padding: 20px;
 }
 
 
