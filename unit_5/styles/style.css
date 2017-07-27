@@ -37,8 +37,7 @@ section {
 }
 
 #intro {
-	background: url(https://goo.gl/YUhHHn);
-	background-size: cover;
+	background-image: url("images/heavensushihero.jpeg");
 	font-family: 'Merriweather', cursive, helvetica, sans-serif;
 	font-weight: bold;
 	margin: 20px 0;
@@ -53,7 +52,7 @@ h1 {
 .calltoaction {
 	font-family: helvetica;
 	font-weight: normal;
-	display: block;
+	display: inline;
 }
 
 #mission {
@@ -66,30 +65,7 @@ h1 {
 	padding: 20px 0 0 0;
 }
 
-#tsunami {
-	background: url(https://goo.gl/JxjLjZ);
-	background-size: cover;
-	padding: 10px 0;
-	margin: 20px 0;
-}
-
-#caliente {
-	background: url(https://goo.gl/KK7UMA);
-	background-size: cover;
-	padding: 10px 0;
-	margin: 20px 0;
-}
-
-#salmonlemon {
-	background: url(https://goo.gl/pvzXgK);
-	background-size: cover;
-	padding: 10px 0;
-	margin: 20px 0;
-}
-
-#heaven {
-	background: url(https://goo.gl/X89XYU);
-	background-size: cover;
+.rolls {
 	padding: 10px 0;
 	margin: 20px 0;
 }
