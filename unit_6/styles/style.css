@@ -9,29 +9,57 @@ body {
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px solid black;
 	padding: 20px;
 	line-height: 2em;
 	margin: 2px 5px 30px 5px;
 }
 
-#headerdiv {
-	float: left;
-}
-
 nav {
-	background-color: #E8C66A;
 	margin: 0 0 20px 0;
-	border: 1px solid black;
 	padding: 20px;
 	float: right;
 }
 
+img {
+	width: 25em;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+/*a:hover {
+	background-color: rgba(220,220,220,1);
+}*/
+
 section {
-	background-color: #FFE2B8;
-	border: 1px solid black;
 	padding: 20px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+footer {
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+#headerdiv {
+	float: left;
 }
 
 #intro {
@@ -43,10 +71,6 @@ section {
 	margin: 4em 0;
 	padding: 14em;
 	text-align: center;
-}
-
-h1 {
-	font-size: 50px;
 }
 
 #calltoaction {
@@ -70,16 +94,42 @@ h1 {
 	margin: 20px 0;
 }
 
-footer {
-	background-color: #FF957E;
-	font-size: 10px;
-	border: 1px solid black;
+#one_column {
+    padding: 20px;
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#right {
+    padding: 20px;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+#information {
 	padding: 20px;
 }
 
+#location {
+    padding: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
 
+#contact {
+    padding: 20px;
+    float: right;
+    width: 50%;
+    text-align: center;
+}
 
-
-
-
-
+#last {
+	text-align: center;
+}
