@@ -1,0 +1,270 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+body {
+	background-color: rgba(220,220,220,1);
+	color: black;
+	font-family: Arial, helvetica, sans-serif;
+}
+
+header {
+	padding: 20px;
+	line-height: 2em;
+}
+
+nav {
+	float: right;
+}
+
+img {
+	width: 100%;
+}
+
+p a {
+	color: black;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 1em;
+}
+
+a:hover {
+	background-color: white;
+}
+
+section {
+	padding: 20px;
+}
+
+h1 {
+	font-size: 3.6em;
+}
+
+h2 {
+	text-align: center;
+}
+
+#intro h2 {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+footer {
+	font-size: .6em;
+	padding: 20px;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+#headerdiv {
+	float: left;
+}
+
+#intro {
+	background-image: url("../images/heavensushihero.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Merriweather', cursive, helvetica, sans-serif;
+	font-weight: bold;
+	padding: 16em;
+	text-align: center;
+	width: 100%;
+}
+
+#calltoaction {
+	font-family: helvetica;
+	font-weight: normal;
+	display: inline;
+	font-size: 1.5em;
+}
+
+#mission {
+	text-align: center;
+	margin: 0;
+	line-height: 1.5em;
+}
+
+#featured {
+	padding: 2em;
+	width: 100%;
+	text-align: center;
+}
+
+.left {
+	padding: 1em 0 1em 5em;
+	float: left;
+	width: 45%;
+	margin: 1em;
+}
+
+.right {
+	padding: 1em 5em 1em 0;
+	float: right;
+	width: 45%;
+	margin: 1em;
+}
+
+#information {
+	padding: 20px;
+	text-align: center;
+}
+
+#location {
+    padding: 20px;
+    float: left;
+    width: 45%;
+    margin: 1em;
+    text-align: center;
+}
+
+#contact {
+    padding: 20px;
+    float: right;
+    width: 45%;
+    margin: 1em;
+    text-align: center;
+}
+
+#last {
+	text-align: center;
+}
+
+@media only screen and (max-width: 1184px) {
+	h1 {
+		font-size: 2.8em;
+	}
+	#intro h2 {
+		font-size: 1.4em;
+	}
+	#calltoaction {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 1035px) {
+	h1 {
+		font-size: 2.4em;
+	}
+	#intro h2 {
+		font-size: 1.4em;
+	}
+	#calltoaction {
+		font-size: 1em;
+	}
+	#mission {
+		font-size: .9em;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	h1 {
+		font-size: 2em;
+	}
+	#intro h2 {
+		font-size: 1em;
+	}
+	#calltoaction {
+		font-size: .8em;
+	}
+	#mission {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 885px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	#intro h2 {
+		font-size: ,8em;
+	}
+	#calltoaction {
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 704px) {
+	h1 {
+		font-size: 2em;
+	}
+	#featured {
+		background: white;
+	}
+	.left {
+		float: none;
+		padding: 1em;
+	}
+	.right {
+		float: none;
+		display: none;
+		padding: 1em;
+	}
+	#mission {
+		font-size: .8em;
+	}
+	#intro {
+		background: white;
+		padding: 6em;
+	}
+	#location {
+		float: none;
+	}
+	#contact {
+		float: none;
+	}
+	#last {
+		background: white;
+	}
+}
+
+@media only screen and (max-width: 565px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	#mission {
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 493px) {
+	.wrapper {
+		text-align: center;
+	}
+	#headerdiv {
+		float: none;
+	}
+	nav {
+		display: inline-block;
+		float: none;
+	}
+	#mission {
+		display: none;
+	}
+	#last {
+		display: none;
+	}
+	#featured {
+		background: rgba(220,220,220,1);
+	}
+	#information {
+		background: white;
+	}
+	h3 {
+		font-size: .8em;
+	}
+	#information p {
+		font-size: .6em;
+	}
+}
